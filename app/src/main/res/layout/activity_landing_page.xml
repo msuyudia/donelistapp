@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ocean"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.landingpage.LandingPageActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_register"
+        style="@style/LandingPageButtonTheme"
+        android:text="@string/text_register"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_login"
+        style="@style/LandingPageButtonTheme"
+        android:text="@string/text_login"/>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/space_16"
+    tools:context=".ui.add.AddActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_ask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotoslab_regular"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="What you gonna do, Suy?"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_title"
+        style="@style/EditTextCreateTheme"
+        android:hint="@string/text_title"
+        android:inputType="textCapWords"
+        android:textSize="@dimen/text_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_ask"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_description"
+        style="@style/EditTextCreateTheme"
+        android:gravity="top"
+        android:hint="@string/text_desc"
+        android:inputType="textCapSentences|textMultiLine"
+        android:minHeight="@dimen/space_120"
+        android:textSize="@dimen/text_12"
+        app:layout_constraintBottom_toTopOf="@id/btn_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_title"
+        app:layout_constraintVertical_bias="0"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_add"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

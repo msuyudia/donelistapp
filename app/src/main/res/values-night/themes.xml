@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DoneListApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_night</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_night</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="LandingPageButtonTheme">
+        <item name="android:layout_width">@dimen/space_120</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableEnd">@drawable/ic_register</item>
+        <item name="android:fontFamily">@font/robotoslab_medium</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="EditTextTheme">
+        <item name="android:fontFamily">@font/robotoslab_medium</item>
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="TextInputLayoutTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="LoginRegisterButtonTheme">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:layout_marginTop">@dimen/space_16</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="EditTextCreateTheme">
+        <item name="android:layout_width">@dimen/space_0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="android:fontFamily">@font/robotoslab_regular</item>
+    </style>
+
+    <style name="TextViewDetailTheme">
+        <item name="android:layout_width">@dimen/space_0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/robotoslab_regular</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#C4F3FF</color>
+    <color name="primary_night">#006D88</color>
+    <color name="primary_variant">#178FAE</color>
+    <color name="secondary">#FF336D</color>
+    <color name="secondary_night">#810025</color>
+    <color name="secondary_variant">#FB0047</color>
+    <color name="black">#FF000000</color>
+    <color name="ocean">#009dc4</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#EEEEEE</color>
+</resources>

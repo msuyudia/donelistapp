@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Done List App</string>
+    <string name="text_register">Daftar</string>
+    <string name="text_login">Masuk</string>
+    <string name="text_email">Email</string>
+    <string name="text_password">Password</string>
+    <string name="text_name">Nama</string>
+    <string name="text_account_already_registered">Email telah didaftarkan!</string>
+    <string name="text_register_success">Akun berhasil didaftarkan</string>
+    <string name="text_wrong_email_or_password">Email atau password salah!</string>
+    <string name="text_name_error">Nama tidak boleh kurang dari 3 karakter!</string>
+    <string name="text_email_invalid">Email tidak valid!</string>
+    <string name="text_email_error">Email tidak boleh kurang dari 3 karakter</string>
+    <string name="text_password_error">Password tidak boleh kurang dari 8 karakter</string>
+    <string name="text_name_value">Hi, %s!</string>
+    <string name="title_activity_done">Activity Done</string>
+    <string name="text_ask_value">What you gonna do, %s?</string>
+    <string name="text_title">Judul</string>
+    <string name="text_desc">Deskripsi</string>
+    <string name="text_add">Tambah</string>
+    <string name="text_activity_success_added">Aktivitas kamu berhasil ditambahkan</string>
+    <string name="text_add_activity_failed">Gagal menambahkan aktivitas</string>
+    <string name="text_desc_error">Deskripsi tidak boleh kosong</string>
+    <string name="text_title_error">Judul tidak boleh kosong</string>
+    <string name="text_activity_error">Data aktivitas tidak ditemukan</string>
+    <string name="text_activity_success_deleted">Aktivitas berhasil dihapus</string>
+    <string name="text_delete_activity_failed">Aktivitas gagal dihapus</string>
+    <string name="title_alert_add_activity">Apakah kamu yakin ingin menambahkan aktivitas ini?</string>
+    <string name="title_alert_delete_activity">Apakah kamu yakin ingin menghapus aktivitas ini?</string>
+    <string name="text_logout_success">Kamu berhasil keluar</string>
+    <string name="text_welcome_user_value">Selamat datang kembali, %s!</string>
+    <string name="title_alert_register">Apakah data kamu sudah benar?</string>
+    <string name="text_yes">Ya</string>
+    <string name="text_no">Tidak</string>
+    <string name="text_message_register_value">Nama: %s\nEmail: %s\nPassword: %s</string>
+    <string name="title_alert_logout">Apakah kamu yakin ingin keluar dari akun ini?</string>
+</resources>
